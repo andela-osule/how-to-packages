@@ -10,7 +10,7 @@ This error can be resolved in any of the following ways:
     export PYTHONPATH=.
     ```
 
-    Check out this (Enthought article)[https://support.enthought.com/hc/en-us/articles/204469160-How-do-I-set-PYTHONPATH-and-other-environment-variables-for-Canopy-] about other alternatives.
+    Check out this [Enthought article](https://support.enthought.com/hc/en-us/articles/204469160-How-do-I-set-PYTHONPATH-and-other-environment-variables-for-Canopy-) about other alternatives.
 
 2. Programmatically append the module's base path to `sys.path`
     ```python
@@ -20,7 +20,7 @@ This error can be resolved in any of the following ways:
     ```
 
 3. Use Path entry finders ✔️
-    While rambling about trying to run a module that imports a name from another module, I came upon a (documentation about Path entry finders in the packages section of python docs)[https://docs.python.org/3.5/reference/import.html#package-path-rules]
+    While rambling about trying to run a module that imports a name from another module, I came upon a [documentation about Path entry finders in the packages section of python docs](https://docs.python.org/3.5/reference/import.html#package-path-rules)
 
     Simply set `__path__` to a list or tuple of paths where python can lookup modules.
 
