@@ -20,6 +20,7 @@ This error can be resolved in any of the following ways:
     ```
 
 3. Use Path entry finders ✔️
+
     While rambling about trying to run a module that imports a name from another module, I came upon a [documentation about Path entry finders in the packages section of python docs](https://docs.python.org/3.5/reference/import.html#package-path-rules)
 
     Simply set `__path__` to a list or tuple of paths where python can lookup modules.
