@@ -4,4 +4,4 @@ from two import b
 
 NAME = 'one'
 
-print b.NAME
+print(b.NAME)
